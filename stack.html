@@ -1,0 +1,58 @@
+<!DOCTYPE html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>The Stack</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body> 
+        <header>
+            <h1>Capstone Fighters</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <h2><a href="./index.html">Overview</a></h2>
+                </li>
+                <li>
+                    <h2>Specifics</h2>
+                    <ul>
+                        <li><a href="./gameplay.html">Gameplay</a></li>
+                        <li><a href="./stack.html">The Stack</a></li>
+                        <li><a href="./road_map.html">Road Map</a></li>
+                        <li><a href="./stretch_goals.html">Stretch Goals</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h2>Developers</h2>
+                    <ul>
+                        <li><a href="./brandon.html">Brandon Banh</a></li>
+                        <li><a href="./frank.html">Frank Cutrera</a></li>
+                        <li><a href="./trenton.html">Trenton Salyer</a></li>
+                        <li><a href="./tyler.html">Tyler Mock</a></li>
+                        <li><a href="./matthew.html">Matthew Watson</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <article>
+                <h2>The Stack</h2>
+                <p>
+                    The challenge every client-server online game faces is 
+                    timing and how to handle situations where connection speed 
+                    differs. This can be solved in a number of different ways, 
+                    our team is focusing on snapshot interpolation and rollback.
+                </p>
+                <p>
+                    Snapshot interpolation uses client input to advance the 
+                    gameplay simulation and sends a snapshot back to the clients 
+                    of the resulting game state. In the event connection state 
+                    is not ideal, which can be defined as less than 35ms delay, 
+                    the server will rollback the game state by inserting input 
+                    in the correct position based on packet timestamp.
+                </p>
+            </article>
+        </main>
+    </body>
+</html>
